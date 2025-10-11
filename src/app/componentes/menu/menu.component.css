@@ -1,0 +1,130 @@
+.navbar {
+  /*  border: solid red 1px; */
+  margin: 0rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background-color: transparent;
+  /* border-right: rgb(198, 197, 197) solid 1px; */
+}
+
+.nav-center {
+  display: flex;
+  flex-direction: column;
+  /* border: rgb(221, 221, 7) solid 1px; */
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+  width: 100%;
+}
+
+.navbar-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* border: red 1px solid; */
+  margin-bottom: 150px;
+  width: 100%;
+  height: 150px;
+  margin-top: auto;
+}
+
+.nav-item {
+  /* border: 1px solid #33b621; */
+}
+
+.nav-link {
+  color: var(--clr-grey-9);
+  /*  border-left: solid 1px var(--clr-grey-8); */
+
+  font-size: 1.2rem;
+  /* border: 1px solid #304bc3; */
+}
+
+.nav-link:hover,
+.nav-icon:hover,
+.toggle-contato:hover {
+  color: var(--clr-green-6);
+}
+
+.nav-icons {
+  display: flex;
+  flex-direction: row;
+  padding: 0.1rem 0.7rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .navbar {
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+  }
+  .nav-center {
+    flex-direction: row;
+    /* border: rgb(221, 221, 7) solid 1px; */
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+  }
+
+  .navbar-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: red 1px solid; */
+    margin-bottom: 0px;
+    width: 20%;
+    height: 100%;
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .navbar {
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+  }
+  .nav-center {
+    flex-direction: row;
+    /* border: rgb(221, 221, 7) solid 1px; */
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+  }
+  .navbar-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: red 1px solid; */
+    margin-bottom: 0px;
+    width: 20%;
+    height: 100%;
+    margin-top: auto;
+  }
+  #svg {
+    width: 25px;
+    height: 25px;
+  }
+}
