@@ -1,0 +1,20 @@
+main {
+  background-image: linear-gradient(
+    to right bottom,
+    #e9fdf3,
+    #e6f5eb,
+    #e2ede4,
+    #dee5de,
+    #d9ddd8,
+    #d9ddd8,
+    #daddd8,
+    #daddd8,
+    #e0e5dd,
+    #e5ede2,
+    #eaf5e7,
+    #effded
+  );
+  /* min-height: 94vh; */
+  min-height: 100vh;
+  padding: 5rem 0 3rem 0;
+}
