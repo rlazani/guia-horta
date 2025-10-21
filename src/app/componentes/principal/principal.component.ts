@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-principal',
   imports: [],
   templateUrl: './principal.component.html',
-  styleUrl: './principal.component.css'
+  styleUrl: './principal.component.css',
 })
-export class PrincipalComponent {
-
-}
+export class PrincipalComponent {}
